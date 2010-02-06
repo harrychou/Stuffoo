@@ -19,3 +19,4 @@ test-report
 /product/config/app.config.xp
 /product/config/log4net.config.xml
 *.orig
+App_Data

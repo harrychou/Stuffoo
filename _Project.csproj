@@ -1,0 +1,161 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="3.5" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>9.0.30729</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{74FCF868-85E1-4AFF-9931-DFC2C9CCA5D7}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>_Project</RootNamespace>
+    <AssemblyName>_Project</AssemblyName>
+    <TargetFrameworkVersion>v3.5</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Core">
+      <RequiredTargetFramework>3.5</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="System.Xml.Linq">
+      <RequiredTargetFramework>3.5</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="System.Data.DataSetExtensions">
+      <RequiredTargetFramework>3.5</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="System.Data" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Properties\AssemblyInfo.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="lib\Autofac\Autofac.Configuration.dll" />
+    <Content Include="lib\Autofac\Autofac.Configuration.pdb" />
+    <Content Include="lib\Autofac\Autofac.dll" />
+    <Content Include="lib\Autofac\Autofac.Integration.Wcf.dll" />
+    <Content Include="lib\Autofac\Autofac.Integration.Wcf.pdb" />
+    <Content Include="lib\Autofac\Autofac.Integration.Web.dll" />
+    <Content Include="lib\Autofac\Autofac.Integration.Web.pdb" />
+    <Content Include="lib\Autofac\Autofac.pdb" />
+    <Content Include="lib\Autofac\Autofac.XML" />
+    <Content Include="lib\mspec\Castle.Core.dll" />
+    <Content Include="lib\mspec\Castle.Core.pdb" />
+    <Content Include="lib\mspec\CommandLine.dll" />
+    <Content Include="lib\mspec\CommandLine.xml" />
+    <Content Include="lib\mspec\Gallio.dll" />
+    <Content Include="lib\mspec\Machine.Specifications.dll" />
+    <Content Include="lib\mspec\Machine.Specifications.GallioAdapter.dll" />
+    <Content Include="lib\mspec\Machine.Specifications.GallioAdapter.pdb" />
+    <Content Include="lib\mspec\Machine.Specifications.pdb" />
+    <Content Include="lib\mspec\Machine.Specifications.Reporting.dll" />
+    <Content Include="lib\mspec\Machine.Specifications.Reporting.pdb" />
+    <Content Include="lib\mspec\Machine.Specifications.Reporting.Templates.dll" />
+    <Content Include="lib\mspec\Machine.Specifications.ReSharperRunner.4.1.dll" />
+    <Content Include="lib\mspec\Machine.Specifications.ReSharperRunner.4.1.pdb" />
+    <Content Include="lib\mspec\Machine.Specifications.ReSharperRunner.4.5.dll" />
+    <Content Include="lib\mspec\Machine.Specifications.ReSharperRunner.4.5.pdb" />
+    <Content Include="lib\mspec\Machine.Specifications.ReSharperRunner.5.0.dll" />
+    <Content Include="lib\mspec\Machine.Specifications.ReSharperRunner.5.0.pdb" />
+    <Content Include="lib\mspec\Machine.Specifications.SeleniumSupport.dll" />
+    <Content Include="lib\mspec\Machine.Specifications.SeleniumSupport.pdb" />
+    <Content Include="lib\mspec\Machine.Specifications.TDNetRunner.dll" />
+    <Content Include="lib\mspec\Machine.Specifications.TDNetRunner.pdb" />
+    <Content Include="lib\mspec\mspec.exe" />
+    <Content Include="lib\mspec\mspec.pdb" />
+    <Content Include="lib\mspec\Newtonsoft.Json.dll" />
+    <Content Include="lib\mspec\Spark.dll" />
+    <Content Include="lib\mspec\Spark.pdb" />
+    <Content Include="lib\mspec\TestDriven.Framework.dll" />
+    <Content Include="lib\mspec\ThoughtWorks.Selenium.Core.dll" />
+    <Content Include="lib\mspec\ThoughtWorks.Selenium.Core.pdb" />
+    <Content Include="lib\NHibernate\Antlr3.Runtime.dll" />
+    <Content Include="lib\NHibernate\Castle.Core.dll" />
+    <Content Include="lib\NHibernate\Castle.Core.xml" />
+    <Content Include="lib\NHibernate\Castle.DynamicProxy.license.txt" />
+    <Content Include="lib\NHibernate\Castle.DynamicProxy2.dll" />
+    <Content Include="lib\NHibernate\Castle.DynamicProxy2.xml" />
+    <Content Include="lib\NHibernate\FluentNHibernate.dll" />
+    <Content Include="lib\NHibernate\FluentNHibernate.pdb" />
+    <Content Include="lib\NHibernate\Iesi.Collections.dll" />
+    <Content Include="lib\NHibernate\Iesi.Collections.xml" />
+    <Content Include="lib\NHibernate\log4net.dll" />
+    <Content Include="lib\NHibernate\log4net.license.txt" />
+    <Content Include="lib\NHibernate\log4net.xml" />
+    <Content Include="lib\NHibernate\nhib2.1\Antlr3.Runtime.dll" />
+    <Content Include="lib\NHibernate\nhib2.1\Castle.Core.dll" />
+    <Content Include="lib\NHibernate\nhib2.1\Castle.Core.xml" />
+    <Content Include="lib\NHibernate\nhib2.1\Castle.DynamicProxy.license.txt" />
+    <Content Include="lib\NHibernate\nhib2.1\Castle.DynamicProxy2.dll" />
+    <Content Include="lib\NHibernate\nhib2.1\Castle.DynamicProxy2.xml" />
+    <Content Include="lib\NHibernate\nhib2.1\Iesi.Collections.dll" />
+    <Content Include="lib\NHibernate\nhib2.1\Iesi.Collections.xml" />
+    <Content Include="lib\NHibernate\nhib2.1\log4net.dll" />
+    <Content Include="lib\NHibernate\nhib2.1\log4net.license.txt" />
+    <Content Include="lib\NHibernate\nhib2.1\log4net.xml" />
+    <Content Include="lib\NHibernate\nhib2.1\NHibernate.ByteCode.Castle.dll" />
+    <Content Include="lib\NHibernate\nhib2.1\NHibernate.ByteCode.Castle.xml" />
+    <Content Include="lib\NHibernate\nhib2.1\NHibernate.dll" />
+    <Content Include="lib\NHibernate\nhib2.1\NHibernate.xml" />
+    <Content Include="lib\NHibernate\NHibernate.ByteCode.Castle.dll" />
+    <Content Include="lib\NHibernate\NHibernate.ByteCode.Castle.xml" />
+    <Content Include="lib\NHibernate\NHibernate.dll" />
+    <Content Include="lib\NHibernate\NHibernate.Linq.dll" />
+    <Content Include="lib\NHibernate\NHibernate.xml" />
+    <Content Include="lib\NHibernate\trunk\Put your trunk files here.txt" />
+    <Content Include="lib\nunit\license.txt" />
+    <Content Include="lib\nunit\nunit-console-runner.dll" />
+    <Content Include="lib\nunit\nunit-console-x86.exe" />
+    <Content Include="lib\nunit\nunit-console.exe" />
+    <Content Include="lib\nunit\nunit.core.dll" />
+    <Content Include="lib\nunit\nunit.core.interfaces.dll" />
+    <Content Include="lib\nunit\nunit.framework.dll" />
+    <Content Include="lib\nunit\nunit.framework.extensions.dll" />
+    <Content Include="lib\nunit\nunit.util.dll" />
+    <Content Include="lib\rhino\Rhino.jpg" />
+    <Content Include="lib\rhino\Rhino.Mocks.dll" />
+    <Content Include="lib\rhino\Rhino.Mocks.xml" />
+    <Content Include="lib\sqlite\System.Data.SQLite.dll" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="lib\mspec\InstallUtil.InstallLog" />
+    <None Include="lib\mspec\Machine.Specifications.dll.tdnet" />
+    <None Include="lib\mspec\Machine.Specifications.Reporting.InstallLog" />
+    <None Include="lib\mspec\Machine.Specifications.Reporting.InstallState" />
+    <None Include="lib\NHibernate\nhib2.1\nhibernate-configuration.xsd" />
+    <None Include="lib\NHibernate\nhib2.1\nhibernate-mapping.xsd" />
+    <None Include="lib\NHibernate\nhibernate-configuration.xsd" />
+    <None Include="lib\NHibernate\nhibernate-mapping.xsd" />
+    <None Include="lib\nunit\nunit-console-x86.exe.config" />
+    <None Include="lib\nunit\nunit-console.exe.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="doc\" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

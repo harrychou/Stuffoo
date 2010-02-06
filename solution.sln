@@ -3,6 +3,10 @@ Microsoft Visual Studio Solution File, Format Version 10.00
 # Visual Studio 2008
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MvcWeb", "MvcWeb\MvcWeb.csproj", "{B9FDDB69-983D-4614-A703-37BBD9DDB6DE}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Core", "Core\Core.csproj", "{9CE2FB94-B442-404B-8A74-79D739CFEF5C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "_Project", "_Project.csproj", "{74FCF868-85E1-4AFF-9931-DFC2C9CCA5D7}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -13,6 +17,14 @@ Global
 		{B9FDDB69-983D-4614-A703-37BBD9DDB6DE}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{B9FDDB69-983D-4614-A703-37BBD9DDB6DE}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{B9FDDB69-983D-4614-A703-37BBD9DDB6DE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9CE2FB94-B442-404B-8A74-79D739CFEF5C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9CE2FB94-B442-404B-8A74-79D739CFEF5C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9CE2FB94-B442-404B-8A74-79D739CFEF5C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9CE2FB94-B442-404B-8A74-79D739CFEF5C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{74FCF868-85E1-4AFF-9931-DFC2C9CCA5D7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{74FCF868-85E1-4AFF-9931-DFC2C9CCA5D7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{74FCF868-85E1-4AFF-9931-DFC2C9CCA5D7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{74FCF868-85E1-4AFF-9931-DFC2C9CCA5D7}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
